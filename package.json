@@ -1,0 +1,27 @@
+{
+  "name": "alphanorthstar",
+  "version": "1.0.0",
+  "description": "Robo Advisor - Alpha North Star",
+  "homepage": "https://github.com/Sandilya0241/LearnNode#readme",
+  "bugs": {
+    "url": "https://github.com/Sandilya0241/LearnNode/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sandilya0241/LearnNode.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "joi": "^18.0.1",
+    "multer": "^2.0.2",
+    "path": "^0.12.7"
+  }
+}

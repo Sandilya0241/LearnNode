@@ -1,0 +1,23 @@
+<html>
+
+<head>
+</head>
+
+<button onclick="submit1()">Test</button>
+
+<input type="text" id="inp"></input>
+
+<script>
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function submit1() {
+	await sleep(10000);
+	document.getElementById("inp").value = "Hello world";
+}
+
+</script>
+
+</html>
